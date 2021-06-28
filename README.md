@@ -42,3 +42,4 @@ Here's a preview of one of our results in one set of CT scans.
 ## 4. Some Notes
 1. Run `Rough Segmentation.py` to start the project. Change the input in the `main` function.
 2. The name of input CT scans must be like `##.Seq##.Ser##.Img##`, `##` is the number. It should be *SetNum.SequenceNum.SeriesNum.ImageNum*. The format can be any image format but `.dcm` is preferred for further medical analysis.
+3. The first and last numbers of slices where left and right kidneys exist should be known. This information is provided by physicians.
